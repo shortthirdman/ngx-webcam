@@ -6,6 +6,9 @@ import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, Renderer2, OnD
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
+	
+	title: string = "ngx-webcam";
+
 	@ViewChild("video", { static: true }) video: ElementRef;
     @ViewChild("canvas", { static: true }) canvas: ElementRef;
 	captures: Array<any>;

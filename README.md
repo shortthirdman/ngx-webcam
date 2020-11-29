@@ -1,5 +1,7 @@
 # ngx-webcam #
 
+![Node.js CI](https://github.com/shortthirdman/ngx-webcam/workflows/Node.js%20CI/badge.svg)
+
 Implementing Webcam Capture using Angular.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
