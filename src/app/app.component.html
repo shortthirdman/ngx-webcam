@@ -1,0 +1,28 @@
+<div class="container vh-100" id="app">
+    <div>
+		<video #video id="video" width="640" height="480" autoplay></video>
+	</div>
+    <div>
+		<button class="btn btn-primary" id="snap" (click)="capture()">Snap Photo</button>
+	</div>
+    <canvas #canvas id="canvas" width="640" height="480"></canvas>
+    <ul>
+        <li *ngFor="let c of captures">
+            <img src="{{ c }}" height="50" />
+        </li>
+    </ul>
+</div>
+
+<!-- <div class="container vh-100"> -->
+	<!-- <div class="d-flex flex-column align-items-center"> -->
+		<!-- <div class="p-1"> -->
+			<!-- <video #video class="vid" autoplay></video> -->
+		<!-- </div> -->
+		<!-- <div class="pb-2"> -->
+			<!-- <button class="btn btn-primary" (click)="capture()">Capture Image</button> -->
+		<!-- </div> -->
+		<!-- <div class="p-1"> -->
+			<!-- <canvas #canvas class="vid"></canvas> -->
+		<!-- </div> -->
+	<!-- </div> -->
+<!-- </div> -->
