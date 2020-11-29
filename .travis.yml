@@ -13,7 +13,7 @@ addons:
 
 branches:
   only:
-  - master
+  - main
 
 before_script:
   - npm install -g @angular/cli@10.1.6
